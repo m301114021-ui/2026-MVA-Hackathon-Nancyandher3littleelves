@@ -1,0 +1,8 @@
+# Whitelist: only code + README are versioned.
+# Hackathon DUA: individual-level data (VCF, annotations, candidate tables, gnomAD
+# cache, submission CSV) must never be committed or reshared, and must be deleted
+# within 30 days of hackathon close.
+/*
+!/.gitignore
+!/README.md
+!/code/
