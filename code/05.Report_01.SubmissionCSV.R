@@ -18,7 +18,7 @@ library(data.table)
 #! Track 1 submission settings
 team       <- "Nancyandher3littleelves"
 approach   <- "panelrank"
-proband_id <- "WGS_EX2312012"
+proband_id <- "PROBAND01"                 # ID accepted by the hackathon scorer
 N_ROWS     <- 10                          # hackathon accepts up to 10 rows
 
 ranked <- fread("proband.ranked_candidates.txt", na.strings = c("NA", ""),
