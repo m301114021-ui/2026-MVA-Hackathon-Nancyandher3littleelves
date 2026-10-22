@@ -12,7 +12,7 @@ import sys
 import time
 from pathlib import Path
 
-working_dir = Path("/home/ianchen/Documents/Projects/MAV_Hackathon/MVA")
+working_dir = Path("/home/ianchen/Documents/Projects/MVA_Hackathon/MVA")
 code_dir    = working_dir / "code"
 Rscript     = "/home/ianchen/miniconda3/envs/R4.5.2/bin/Rscript"
 

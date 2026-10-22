@@ -17,7 +17,7 @@ import csv
 from pathlib import Path
 
 # working directory
-working_dir = Path("/home/ianchen/Documents/Projects/MAV_Hackathon/MVA")
+working_dir = Path("/home/ianchen/Documents/Projects/MVA_Hackathon/MVA")
 source_dir2 = working_dir / "data/01_interim"
 source_dir3 = working_dir / "data/02_processed"
 

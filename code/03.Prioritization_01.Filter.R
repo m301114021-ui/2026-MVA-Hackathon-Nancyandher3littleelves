@@ -1,5 +1,5 @@
 # working directory
-working_dir <- file.path("/home/ianchen/Documents/Projects/MAV_Hackathon/MVA")
+working_dir <- file.path("/home/ianchen/Documents/Projects/MVA_Hackathon/MVA")
 # source directory
 source_dir  <- file.path(working_dir, "data/raw")
 source_dir2 <- file.path(working_dir, "data/01_interim")

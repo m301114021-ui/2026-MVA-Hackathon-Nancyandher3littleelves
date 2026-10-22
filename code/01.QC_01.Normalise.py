@@ -1,12 +1,11 @@
 # Stage 01 step 1 — normalise + hard-filter the proband VCF, write the genotype /
-# allele-balance table and bcftools stats. Replaces the bash block of the old
-# Main_MAV_Hackathon_01.QC.sh (same filters, same outputs).
+# allele-balance table and bcftools stats.
 import subprocess
 import collections
 from pathlib import Path
 
 # working directory
-working_dir = Path("/home/ianchen/Documents/Projects/MAV_Hackathon/MVA")
+working_dir = Path("/home/ianchen/Documents/Projects/MVA_Hackathon/MVA")
 # source directory
 source_dir  = working_dir / "data/raw"
 source_dir2 = working_dir / "data/01_interim"
