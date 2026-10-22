@@ -25,7 +25,7 @@ STEPS = [
     "03.Prioritization_02.CallQC.py",      # genotype / cluster / tandem-repeat QC
     "03.Prioritization_03.gnomAD.py",      # gnomAD v4.1 joint AF (coordinates only)
     "03.Prioritization_04.InheritanceModels.R",
-    "04.Phenotype_01.GenePanels.R",        # curated HPO gene panels
+    "04.Phenotype_01.GenePanels.R",        # curated phenotype gene panels
     "04.Phenotype_02.Rank.R",              # score & rank
     "05.Report_01.SubmissionCSV.R",        # hackathon Track 1 CSV
 ]
