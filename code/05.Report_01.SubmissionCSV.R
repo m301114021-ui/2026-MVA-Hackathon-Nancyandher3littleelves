@@ -17,7 +17,7 @@ library(data.table)
 
 #! Track 1 submission settings
 team       <- "Nancyandher3littleelves"
-approach   <- "vep105-gnomad4-panelrank"
+approach   <- "panelrank"
 proband_id <- "WGS_EX2312012"
 N_ROWS     <- 10                          # hackathon accepts up to 10 rows
 

@@ -45,7 +45,7 @@ python3 code/00.Run_All.py                       # full run (~20 min, mostly VEP
 python3 code/00.Run_All.py --from 03.Prioritization_02.CallQC.py   # partial re-run
 ```
 
-The submission is written to `out/Nancyandher3littleelves_vep105-gnomad4-panelrank.csv`. Intermediate tables are in `data/01_interim/` and `data/02_processed/`.
+The submission is written to `out/Nancyandher3littleelves_panelrank.csv`. Intermediate tables are in `data/01_interim/` and `data/02_processed/`.
 
 ## Design choices and limitations
 
